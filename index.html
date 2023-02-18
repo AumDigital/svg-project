@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="styles/index.css"></link>
+    <title>SVG</title>
+</head>
+<body>
+    <section>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" xmlns="http://www.w3.org/2000/svg"></circle>
+        </svg>
+
+        <svg width="200" height="200">
+            <rect x="50" y="20" width="100" height="50" stroke="yellow" stroke-width="4" fill="blue" xlmns="http://www.w3.org/2000/svg"></rect>
+        </svg>
+    </section>
+
+    <!--does not work
+    <svg>
+        <use xlink:href="images/world.svg#world-view"></use>
+    </svg>
+    -->
+
+
+    <div class="image-box">
+        <img src="images/world.svg" alt="animated world icon">
+    </div>
+    
+    
+</body>
+</html>
